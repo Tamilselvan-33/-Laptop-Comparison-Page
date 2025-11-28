@@ -1,11 +1,25 @@
 const laptops = {
-            "HP Pavilion 14": { cpu: "Intel i5-1235U", ram: "16GB DDR4", storage: "512GB SSD", gpu: "Intel Iris Xe", price: "₹62,990" },
-            "HP Victus 15": { cpu: "Ryzen 5 5600H", ram: "16GB DDR4", storage: "512GB SSD", gpu: "GTX 1650", price: "₹69,990" },
-            "Lenovo IdeaPad Slim 3": { cpu: "Intel i3-1215U", ram: "8GB DDR4", storage: "512GB SSD", gpu: "Intel UHD", price: "₹42,990" },
-            "Lenovo Legion 5": { cpu: "Ryzen 7 5800H", ram: "16GB DDR4", storage: "1TB SSD", gpu: "RTX 3060", price: "₹1,18,990" },
-            "Asus VivoBook 15": { cpu: "Intel i5-1135G7", ram: "8GB DDR4", storage: "512GB SSD", gpu: "Iris Xe", price: "₹54,490" },
-            "Asus TUF Gaming A15": { cpu: "Ryzen 7 4800H", ram: "16GB DDR4", storage: "1TB SSD", gpu: "RTX 3050", price: "₹89,990" },
-        };
+    "HP Pavilion 14": { cpu: "Intel i5-1235U", ram: "16GB DDR4", storage: "512GB SSD", gpu: "Intel Iris Xe", price: "₹62,990" },
+    "HP Victus 15": { cpu: "Ryzen 5 5600H", ram: "16GB DDR4", storage: "512GB SSD", gpu: "GTX 1650", price: "₹69,990" },
+    "HP Omen 16": { cpu: "Intel i7-12700H", ram: "16GB DDR5", storage: "1TB SSD", gpu: "RTX 3060", price: "₹1,39,990" },
+
+    "Lenovo IdeaPad Slim 3": { cpu: "Intel i3-1215U", ram: "8GB DDR4", storage: "512GB SSD", gpu: "Intel UHD", price: "₹42,990" },
+    "Lenovo IdeaPad Gaming 3": { cpu: "Ryzen 5 5600H", ram: "8GB DDR4", storage: "512GB SSD", gpu: "GTX 1650", price: "₹58,990" },
+    "Lenovo Legion 5": { cpu: "Ryzen 7 5800H", ram: "16GB DDR4", storage: "1TB SSD", gpu: "RTX 3060", price: "₹1,18,990" },
+
+    "Asus VivoBook 15": { cpu: "Intel i5-1135G7", ram: "8GB DDR4", storage: "512GB SSD", gpu: "Intel Iris Xe", price: "₹54,490" },
+    "Asus ZenBook 14 OLED": { cpu: "Intel i7-1260P", ram: "16GB LPDDR5", storage: "512GB SSD", gpu: "Intel Iris Xe", price: "₹92,990" },
+    "Asus TUF Gaming A15": { cpu: "Ryzen 7 4800H", ram: "16GB DDR4", storage: "1TB SSD", gpu: "RTX 3050", price: "₹89,990" },
+
+    "Dell Inspiron 15 5000": { cpu: "Intel i5-1235U", ram: "16GB DDR4", storage: "512GB SSD", gpu: "Intel Iris Xe", price: "₹64,990" },
+    "Dell G15 Gaming": { cpu: "Ryzen 7 6800H", ram: "16GB DDR5", storage: "512GB SSD", gpu: "RTX 3050", price: "₹1,02,990" },
+
+    "Acer Aspire 7": { cpu: "Ryzen 5 5500U", ram: "8GB DDR4", storage: "512GB SSD", gpu: "GTX 1650", price: "₹54,990" },
+    "Acer Nitro 5": { cpu: "Intel i5-12500H", ram: "16GB DDR4", storage: "512GB SSD", gpu: "RTX 3050", price: "₹89,990" },
+
+    "MSI GF63 Thin": { cpu: "Intel i5-11400H", ram: "8GB DDR4", storage: "512GB SSD", gpu: "GTX 1650", price: "₹58,990" },
+    "MSI Katana GF66": { cpu: "Intel i7-11800H", ram: "16GB DDR4", storage: "512GB SSD", gpu: "RTX 3060", price: "₹1,09,990" }
+};
 
         const lap1 = document.getElementById("lap1");
         const lap2 = document.getElementById("lap2");
