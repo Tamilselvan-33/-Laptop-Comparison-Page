@@ -1,0 +1,85 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8') no-repeat center/cover;
+            backdrop-filter: blur(3px);
+            padding: 20px;
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px #000;
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px;
+            background: #111;
+            color: #0ff;
+            border: 2px solid #0ff;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        select:hover {
+            background: #222;
+        }
+        button {
+            width: 100%;
+            background: #0ff;
+            color: #000;
+            padding: 12px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #0cc;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: rgba(0,0,0,0.7);
+        }
+        th, td {
+            border: 1px solid #0ff;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #0ff;
+            color: #000;
+            font-size: 18px;
+        }
+        .add-form {
+            margin-top: 20px;
+            background: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .add-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 2px solid #0ff;
+            background: #111;
+            color: #0ff;
+            border-radius: 6px;
+        }

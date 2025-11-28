@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LapCompare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LapCompare – Laptop Comparison</h1>
+    <div class="container">
+        <label>Select Laptop 1:</label>
+        <select id="lap1"></select>
+
+        <label>Select Laptop 2:</label>
+        <select id="lap2"></select>
+
+        <button onclick="compareLaptops()">Compare</button>
+
+        <div id="result"></div>
+
+        <div class="add-form">
+            <h2>Add New Laptop</h2>
+            <input type="text" id="newModel" placeholder="Laptop Model" />
+            <input type="text" id="newCPU" placeholder="CPU" />
+            <input type="text" id="newRAM" placeholder="RAM" />
+            <input type="text" id="newStorage" placeholder="Storage" />
+            <input type="text" id="newGPU" placeholder="GPU" />
+            <input type="text" id="newPrice" placeholder="Price" />
+            <button onclick="addLaptop()">Add Laptop</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
